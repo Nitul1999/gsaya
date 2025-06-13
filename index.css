@@ -170,7 +170,7 @@ main{
     opacity: 0;
   }
   /* Responsive for smaller devices */
-@media (max-width: 800px) {
+@media (max-width: 600px) {
 
     .main-section {
       grid-template-columns: 1fr;
