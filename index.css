@@ -177,7 +177,8 @@ main{
     }
    
      header nav .items ul{
-      gap:5x
+      gap:5x;
+      flex-direction: column;
      }
      .logo{
       margin: 10px;
