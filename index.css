@@ -263,10 +263,10 @@ main{
     .activites div{
       width: 100%;
     }
-    .activites .activities-paragraph{
+    .activites div .activities-paragraph{
       width: 100%;
     }
-    .activites .activities-paragraph p{
+    .activites div .activities-paragraph p{
       padding: 0;
     }
     .our-activity-scrolled .activity-scroll-bar-section{
@@ -283,10 +283,10 @@ main{
     }
 
     .address-section .address-ection-main .address-left .address-details h2{
-      font-size: 10px;
+      font-size: 20px;
     }
     .address-section .address-ection-main .address-left .address-details p{
-      font-size: 6px;
+      font-size: 10px;
     }
 
 
