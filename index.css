@@ -271,31 +271,23 @@ main{
 
     }
 
-    .section-contact-us .contact-element .left ul li span{
-    font-size: 1rem;
+    .section-contact-us .section-contact-us-main .contact-element .left ul li span{
+      font-size: 1rem;
     }
 
      .address-section .address-ection-main .address-left .address-details h2{
-      font-size: 1.3rem;
+      font-size: 1.17rem;
     }
      .address-section .address-ection-main .address-left .address-details p{
       font-size:1rem ;
       letter-spacing: 1px;
     }
-    /* .address-section .address-ection-main .address-left .address-details h2{
-      font-size: 20px;
-    }
-    .address-section .address-ection-main .address-left .address-details p{
-      font-size: 10px;
-    } */
-  
-
 
     footer{
       padding: 10px;
     }
     footer p {
-      font-size: 2px;
+     font-size: 1rem;
       text-align: center;
     }
 }
