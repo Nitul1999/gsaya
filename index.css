@@ -197,7 +197,7 @@ main{
       list-style: none;
   }
      header nav .items ul li{
-     font-size: 10px;
+     font-size: 15px;
      }
      .logo{
       margin-top: 10px;
@@ -262,14 +262,13 @@ main{
       font-size:1rem ;
       letter-spacing: 1px;
     }
-    .activites{
-      padding: 6px;
-    }
     .activites div{
       width: 100%;
+      margin: 0px;
     }
     .activites .activities-paragraph{
       width: 100%;
+      margin: 0;
     }
 
     .our-activity-scrolled .activity-scroll-bar-section{
@@ -295,9 +294,9 @@ main{
 
 
     footer{
-      margin: 10px;
+      padding: 10px;
     }
-    footer p{
+    footer>p{
       font-size:6px;
       color: #e9ecef;
     }
