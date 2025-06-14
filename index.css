@@ -156,17 +156,17 @@ main{
   animation-delay: 2s;
 }
 
-  @keyframes slideInFromRight {
-    to {
-      transform: translateX(0);
-      opacity: 1;
-    }
+@keyframes slideInFromRight {
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
   }
   /* Add subtle fade in at start to keep smoothness */
   /* .main-left-section, */
-  .main-right-section {
-    opacity: 0;
-  }
+.main-right-section {
+  opacity: 0;
+}
   /* Responsive for smaller devices */
 @media screen and (max-width: 525px) {
     html,body{
@@ -211,7 +211,7 @@ main{
       padding: 10px;
      }
      .main-section .main-right-section .right-sub img{
-      width: 80%;
+      width: 85%;
      }
 
     .we-do-section .we-do .we-do-left .we-do-left-text p{
