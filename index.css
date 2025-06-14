@@ -271,6 +271,9 @@ main{
 
     }
 
+    .section-contact-us .section-contact-us-main .contact-element .left{
+      margin: 10px;
+    }
     .section-contact-us .section-contact-us-main .contact-element .left ul li span{
       font-size: 0.8rem;
     }
@@ -282,12 +285,15 @@ main{
       font-size:1rem ;
       letter-spacing: 1px;
     }
+    .address-section .address-ection-main .address-rigth{
+      margin: 15px;
+    }
 
     footer{
       padding: 10px;
     }
     footer p {
-     font-size: 1rem;
+     font-size: 0.7rem;
       text-align: center;
     }
 }
