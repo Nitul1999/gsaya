@@ -493,7 +493,7 @@ p.animated-text span {
   height: 3px;
   width: 0%;
   background-color: #ffd900; /* White border color */
-  animation: slideBorder 15s infinite ease forwards;
+  animation: slideBorder 20s infinite ease forwards;
 }
 
 /* Animation keyframes */
@@ -502,7 +502,7 @@ p.animated-text span {
     width: 0%;
   }
   100% {
-    width: 600%;
+    width: 60%;
 
   }
 }
