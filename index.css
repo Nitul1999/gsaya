@@ -205,7 +205,7 @@ main{
       margin-left: 8px;
      }
      p.animated-text{
-      font-size:1rem ;
+      font-size:10px ;
      }
      .main-right-section{
       padding: 10px;
@@ -270,10 +270,6 @@ main{
     }
     .activites .activities-paragraph{
       width: 100%;
-      padding: 0;
-    }
-    .activites .activities-paragraph p{
-      padding: 10px;
     }
 
     .our-activity-scrolled .activity-scroll-bar-section{
@@ -288,17 +284,21 @@ main{
     .contact-element .left ul li span{
       font-size:10px;
     }
+
     .address-ection-main .address-left .address-details h2{
-      font-size: 1.1rem;
+      font-size: 10px;
     }
     .address-ection-main .address-left .address-details p{
-      font-size: 1rem;
+      font-size: 6px;
     }
 
 
 
+    footer{
+      margin: 10px;
+    }
     footer p{
-      font-size:10px;
+      font-size:6px;
       color: #e9ecef;
     }
 }
