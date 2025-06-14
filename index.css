@@ -264,6 +264,9 @@ main{
     .activites{
       padding: 6px;
     }
+    .activites div{
+      width: 100%;
+    }
     .activites .activities-paragraph{
       width: 100%;
       padding: 0;
@@ -273,17 +276,16 @@ main{
     }
 
     .our-activity-scrolled .activity-scroll-bar-section{
-      width: 95%;
+      width: 15%;
       /* background: #f7356c; */
       background: rgb(61, 30, 53);
       overflow: hidden;
-      /* border-left: 3px solid yellow; */
       padding: 20px;
       border-radius: 20px;
 
     }
     .contact-element .left ul li span{
-      font-size: 1rem;
+      font-size:10px;
     }
     .address-ection-main .address-left .address-details h2{
       font-size: 1.1rem;
@@ -292,6 +294,12 @@ main{
       font-size: 1rem;
     }
 
+
+
+    footer p{
+      font-size:10px;
+      color: #e9ecef;
+    }
 }
 
 
