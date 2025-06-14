@@ -175,6 +175,13 @@ main{
     .main-section {
       grid-template-columns: 1fr;
     }
+    header{
+      margin: 8px;
+    }
+    header nav{
+       grid-template-columns: 1fr 2fr;
+       
+    }
    
      header nav .items ul{
       gap:2x;
