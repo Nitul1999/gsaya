@@ -132,6 +132,9 @@ main{
   10px 4px 20px rgba(0, 119, 255, 0.4); */
   /* border-radius: 40px; */
   }
+.main-left-section .main-text-section a{
+  text-decoration: none;
+}
 .main-left-section .main-text-section button{
   width: 130px;
   height: 40px;
@@ -436,6 +439,9 @@ p.animated-text span {
   line-height: 2.03em;
   color: blanchedalmond;
 }
+/* .section-about-section button a{
+ text-decoration: none;
+} */
 .section-about-section button{
   background-color: transparent;
   font-size: 1.1rem;
