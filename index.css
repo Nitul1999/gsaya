@@ -169,20 +169,23 @@ main{
   }
   /* Responsive for smaller devices */
 @media screen and (max-width: 525px) {
-
+    body{
+      background: #061520;
+    }
      
     .main-section {
       grid-template-columns: 1fr;
     }
-    header{
+    /* header{
       margin: 8px;
-    }
+    } */
     header nav .logo .content{
       width: 100px;
       height: 100px;
     }
     header nav{
        grid-template-columns: 1fr 2fr;
+       width: auto;
     }
       header nav .items ul{
       display: flex;
@@ -256,6 +259,9 @@ main{
     .address-ection-main .address-left .address-details p{
       font-size:1rem ;
       letter-spacing: 1px;
+    }
+    .activites{
+      padding: 6px;
     }
     .activites .activities-paragraph{
       width: 100%;
