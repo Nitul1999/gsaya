@@ -180,12 +180,12 @@ main{
     }
     header nav{
        grid-template-columns: 1fr 2fr;
-       
+
     }
    
      header nav .items ul{
       gap:2x;
-      flex-direction: column;
+      /* flex-direction: column; */
      }
      .logo{
       margin: 10px;
