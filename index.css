@@ -255,15 +255,17 @@ main{
       font-size:8px ;
       letter-spacing: 1px;
     }
+    
+    .activites{
+      background: rgb(51, 8, 40);
+      padding: 5px;
+    }
     .activites div{
-      width: 100%;
-      margin: 0px;
+      width: 90%;
     }
-    .activites .activities-paragraph{
-      width: 100%;
-      margin: 0;
+    .activites .activities-paragraph p{
+      padding: 9px;
     }
-
     .our-activity-scrolled .activity-scroll-bar-section{
       width: 15%;
       /* background: #f7356c; */
@@ -289,8 +291,8 @@ main{
     footer{
       padding: 10px;
     }
-     footer p {
-      font-size: 5px;
+    footer p {
+      font-size: 2px;
       text-align: center;
     }
 }
