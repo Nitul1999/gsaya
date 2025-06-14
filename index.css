@@ -150,9 +150,7 @@ main{
   /* Right section sliding from right */
 
 .main-right-section {
-
   padding: 2rem;
-  
   transform: translateX(20%);
   animation: slideInFromRight 4s ease forwards;
   animation-delay: 2s;
@@ -178,6 +176,10 @@ main{
     header{
       margin: 8px;
     }
+    header nav .logo .content{
+      width: 100px;
+      height: 100px;
+    }
     header nav{
        grid-template-columns: 1fr 2fr;
 
@@ -197,8 +199,11 @@ main{
      p.animated-text{
       font-size:1rem ;
      }
+     .main-right-section{
+      padding: 10px;
+     }
      .main-section .main-right-section .right-sub img{
-      width: 75%;
+      width: 65%;
      }
     .we-do-section .we-do .we-do-left .we-do-left-text p{
       letter-spacing: 0.3px;
@@ -214,6 +219,12 @@ main{
       line-height: 0.43em;
       
     }
+    .we-do-section .we-do .we-do-rigth{
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      width: 350px;
+    }
     .we-do-section .we-do .we-do-rigth .we-do-image img{
        width: 40%;
        height:50%
@@ -221,9 +232,12 @@ main{
     .we-do-section .we-do .we-do-left .we-do-left-text p{
       padding: 8px;
     }
-    .footer p{
-        font-size: 0.91rem;
-        color: #e9ecef;
+    .we-do-section .we-do .we-do-left{
+      width: 300px;
+    }
+    footer p{
+      font-size: 12px;
+      color: #e9ecef;
     }
     .address-ection-main .address-left .address-details h2{
       font-size: 1rem;
@@ -231,6 +245,9 @@ main{
     .address-ection-main .address-left .address-details p{
       font-size:1rem ;
       letter-spacing: 1px;
+    }
+    .activites .activities-paragraph{
+      width: 90%;
     }
 
 }
@@ -817,6 +834,8 @@ footer{
   align-items: center;
   height: 70px;
   background: #061520;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 footer p{
   font-size: 1.2rem;
