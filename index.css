@@ -189,13 +189,13 @@ main{
        grid-template-columns: 1fr 2fr;
        width: auto;
     }
-      header nav .items ul{
+    header nav .items ul{
       display: flex;
       align-items:flex-start;
       gap: 15px;
       color: rgb(0, 0, 0);
       list-style: none;
-  }
+    } 
      header nav .items ul li{
      font-size: 12px;
      }
@@ -204,14 +204,14 @@ main{
       margin-right: 4px;
       margin-left: 8px;
      }
-     p.animated-text{
+     .main-text-section p.animated-text{
       font-size:10px ;
      }
      .main-right-section{
       padding: 10px;
      }
      .main-section .main-right-section .right-sub img{
-      width: 85%;
+      width: 75%;
      }
 
     .we-do-section .we-do .we-do-left .we-do-left-text p{
