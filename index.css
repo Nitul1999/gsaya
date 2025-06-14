@@ -170,6 +170,7 @@ main{
   /* Responsive for smaller devices */
 @media screen and (max-width: 525px) {
 
+     
     .main-section {
       grid-template-columns: 1fr;
     }
@@ -184,17 +185,13 @@ main{
        grid-template-columns: 1fr 2fr;
 
     }
-    header nav .items{
-      
-    }
-     header nav .items ul {
-      margin: 0;
-     }
      header nav .items ul li{
      font-size: 10px;
      }
      .logo{
-      margin: 10px;
+      margin-top: 10px;
+      margin-right: 4px;
+      margin-left: 8px;
      }
      p.animated-text{
       font-size:1rem ;
@@ -228,6 +225,9 @@ main{
       justify-content: center;
       width: 350px;
     }
+    .we-do-section .we-do .we-do-left .we-do-left-text h2{
+      text-align: center;
+    }
     .we-do-section .we-do .we-do-rigth .we-do-image img{
        width: 40%;
        height:50%
@@ -245,6 +245,10 @@ main{
     .activites .activities-paragraph{
       width: 90%;
     }
+    .activites .activities-paragraph p{
+      padding: 20px;
+    }
+
 
 }
 
