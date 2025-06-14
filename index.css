@@ -237,7 +237,8 @@ main{
       width: 350px;
     }
     .we-do-section .we-do .we-do-left .we-do-left-text h2{
-      text-align: center;
+      text-align: left;
+      padding-left: 20px;
     }
     .we-do-section .we-do .we-do-rigth .we-do-image img{
        width: 40%;
@@ -245,15 +246,6 @@ main{
     }  
     .we-do-section .we-do .we-do-left .we-do-left-text p{
       padding: 8px;
-    }
-    @keyframes slideBorder {
-      0% {
-        width: 0%;
-      }
-      100% {
-        width: 100%;
-
-      }
     }
     .address-ection-main .address-left .address-details h2{
       font-size: 1rem;
@@ -373,24 +365,24 @@ p.animated-text span {
     animation-duration: 6s;
     animation-iteration-count: infinite;
   }
-    @keyframes fadeInOut {
-    0% {
-      opacity: 0;
-      transform: translateY(10px);
-    }
-    20% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-    80% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-    100% {
-      opacity: 0;
-      transform: translateY(10px);
-    }
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
   }
+  20% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  80% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
  /* rigth section */
 .main-right-section{
   display: flex;
@@ -504,7 +496,7 @@ p.animated-text span {
     width: 0%;
   }
   100% {
-    width: 50%;
+    width: 600%;
 
   }
 }
