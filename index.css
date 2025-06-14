@@ -247,11 +247,12 @@ main{
     .we-do-section .we-do .we-do-left .we-do-left-text p{
       padding: 8px;
     }
+
     .address-ection-main .address-left .address-details h2{
       font-size: 1rem;
     }
     .address-ection-main .address-left .address-details p{
-      font-size:1rem ;
+      font-size:8px ;
       letter-spacing: 1px;
     }
     .activites div{
@@ -289,9 +290,8 @@ main{
       padding: 10px;
     }
      footer p {
-      font-size: 1rem;
+      font-size: 5px;
       text-align: center;
-      padding: 0 10px;
     }
 }
 
