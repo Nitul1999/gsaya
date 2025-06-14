@@ -183,8 +183,14 @@ main{
     }
     header nav{
        grid-template-columns: 1fr 2fr;
-
     }
+      header nav .items ul{
+      display: flex;
+      align-items:flex-start;
+      gap: 15px;
+      color: rgb(0, 0, 0);
+      list-style: none;
+  }
      header nav .items ul li{
      font-size: 10px;
      }
@@ -235,6 +241,15 @@ main{
     .we-do-section .we-do .we-do-left .we-do-left-text p{
       padding: 8px;
     }
+    @keyframes slideBorder {
+      0% {
+        width: 0%;
+      }
+      100% {
+        width: 100%;
+
+      }
+    }
     .address-ection-main .address-left .address-details h2{
       font-size: 1rem;
     }
@@ -243,12 +258,22 @@ main{
       letter-spacing: 1px;
     }
     .activites .activities-paragraph{
-      width: 90%;
+      width: 100%;
     }
     .activites .activities-paragraph p{
-      padding: 20px;
+      padding: 10px;
     }
 
+    .our-activity-scrolled .activity-scroll-bar-section{
+      width: 95%;
+      /* background: #f7356c; */
+      background: rgb(61, 30, 53);
+      overflow: hidden;
+      /* border-left: 3px solid yellow; */
+      padding: 20px;
+      border-radius: 20px;
+
+    }
 
 }
 
