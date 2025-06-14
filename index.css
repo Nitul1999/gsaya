@@ -272,11 +272,11 @@ main{
     }
 
     .section-contact-us .section-contact-us-main .contact-element .left{
-      margin: 10px;
-      padding: 30px;
+      margin: 2px;
+      padding: 5px;
     }
     .section-contact-us .section-contact-us-main .contact-element .left ul li span{
-      font-size: 0.8rem;
+      font-size: 1rem;
     }
 
      .address-section .address-ection-main .address-left .address-details h2{
