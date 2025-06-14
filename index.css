@@ -170,7 +170,8 @@ main{
   /* Responsive for smaller devices */
 @media screen and (max-width: 525px) {
     body{
-      background: #061520;
+      margin: 0;
+      padding: 0;
     }
      
     .main-section {
@@ -265,6 +266,7 @@ main{
     }
     .activites .activities-paragraph{
       width: 100%;
+      padding: 0;
     }
     .activites .activities-paragraph p{
       padding: 10px;
@@ -279,6 +281,15 @@ main{
       padding: 20px;
       border-radius: 20px;
 
+    }
+    .contact-element .left ul li span{
+      font-size: 1rem;
+    }
+    .address-ection-main .address-left .address-details h2{
+      font-size: 1.1rem;
+    }
+    .address-ection-main .address-left .address-details p{
+      font-size: 1rem;
     }
 
 }
