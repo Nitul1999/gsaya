@@ -182,9 +182,11 @@ main{
        grid-template-columns: 1fr 2fr;
 
     }
-   
-     header nav .items ul{
-      gap:2x;
+    header nav .items{
+      
+    }
+     header nav .items ul a{
+      margin: 0;
      }
      header nav .items ul li{
      font-size: 10px;
@@ -194,6 +196,9 @@ main{
      }
      p.animated-text{
       font-size:1rem ;
+     }
+     .main-section .main-right-section .right-sub img{
+      width: 75%;
      }
     .we-do-section .we-do .we-do-left .we-do-left-text p{
       letter-spacing: 0.3px;
